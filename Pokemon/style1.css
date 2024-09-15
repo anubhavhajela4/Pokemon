@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        background-image: url(677583.png);
+        background-repeat: no-repeat;        
+        background-size: cover;
+        background-position: center;
+        
+}
+#main {
+    grid-area: 1 /3 /2/5;
+    text-align: center;
+    margin: 15px;
+    border-radius: 15px;
+    border: solid;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    border-color: darkblue ;
+    border-width: 5px;
+}
+#main h1{
+    color: yellow;
+    -webkit-text-stroke:1px blue;
+    font-size: 30px;
+}
+#image {
+    grid-area: 3/2/5/4;
+    background-color: rgba(0, 255, 26, 0.538);
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    
+}
+.item1{
+    background-color: rgba(0, 255, 251, 0.8);
+    grid-area: 3/5/4/6  ;
+    margin: 15px;
+    border-radius: 15px;
+}
+.item2{
+    background-color: rgba(255, 255, 0, 0.8);
+    grid-area: 3/6/4/7;
+    margin: 15px;
+    border-radius: 15px;
+}
+.item3{
+    background-color: rgba(238, 130, 238, 0.8);
+    grid-area:4/5/5/6 ;
+    margin: 15px;
+    border-radius: 15px;
+}
+.item4{
+    background-color: rgba(0, 0, 255, 0.8);
+    grid-area: 4 /6/5/7;
+    margin: 15px;
+    border-radius: 15px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button1 {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+#button2 {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+#button3 {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+#button4 {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
